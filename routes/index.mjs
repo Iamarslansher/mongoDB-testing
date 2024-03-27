@@ -1,6 +1,6 @@
 import express from "express";
-import products from "./products.mjs";
 const router = express.Router();
+import products from "./products.mjs";
 
 router.use("/products", products);
 
